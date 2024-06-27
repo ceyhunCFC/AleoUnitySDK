@@ -1,0 +1,32 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AleoUnitySDKManager">
+			<method name="StarterButton"/>
+		</type>
+		<type fullname="UpdateLeoVariables">
+			<method name="GetIndex"/>
+			<method name="GetIndex"/>
+			<method name="GetIndex"/>
+			<method name="GetIndex"/>
+			<method name="GetIndex"/>
+			<method name="GetIndex"/>
+			<method name="GetIndex"/>
+			<method name="GetIndex"/>
+			<method name="GetIndex"/>
+			<method name="GetValue"/>
+			<method name="GetValue"/>
+			<method name="GetValue"/>
+			<method name="GetValue"/>
+			<method name="GetValue"/>
+			<method name="GetValue"/>
+			<method name="GetValue"/>
+			<method name="GetValue"/>
+			<method name="GetValue"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.UI" ignoreIfMissing="1">
+		<type fullname="UnityEngine.UI.Selectable">
+			<method name="set_interactable"/>
+		</type>
+	</assembly>
+</linker>

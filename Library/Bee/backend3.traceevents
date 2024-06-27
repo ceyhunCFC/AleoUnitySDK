@@ -1,0 +1,470 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1719478258833042, "dur":33340, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719478258866388, "dur":198, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719478258866623, "dur":437, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719478258867209, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1719478258869023, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1719478258867098, "dur":2844, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719478258869943, "dur":536430, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719478259406375, "dur":309, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719478259406868, "dur":5567, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1719478258867142, "dur":2807, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719478258869951, "dur":6476, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719478258876439, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/5467702626183249394.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1719478258876569, "dur":836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/CFCof/Desktop/Aleo-SDK/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1719478258877406, "dur":2287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1719478258883878, "dur":12376, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258883824, "dur":12432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258896270, "dur":22577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258918898, "dur":13068, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258918851, "dur":13117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258931982, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258933118, "dur":13820, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258933066, "dur":13873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258946978, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258947732, "dur":9952, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258947690, "dur":9996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258957696, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258958353, "dur":9253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258958300, "dur":9308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258967624, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258968477, "dur":13395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258968422, "dur":13452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258981892, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258982617, "dur":7923, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258982573, "dur":7968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258990555, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258991197, "dur":8882, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478258991153, "dur":8927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478259000095, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478259001452, "dur":191450, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478259001403, "dur":191500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478259192916, "dur":11161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1719478259204078, "dur":202302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719478258867469, "dur":2496, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719478258869968, "dur":410, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719478258870378, "dur":189, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719478258870567, "dur":227, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719478258870794, "dur":217, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719478258871011, "dur":5439, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719478258876450, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1719478258876613, "dur":174, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Export/Weber/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1719478258876787, "dur":7083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1719478258883928, "dur":13098, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478258883871, "dur":13158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478258897044, "dur":22997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478258920094, "dur":19414, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478258920042, "dur":19507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478258939637, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478258940591, "dur":70578, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478258940551, "dur":70620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259011199, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259012600, "dur":86003, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259012547, "dur":86058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259098627, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259099329, "dur":53650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\CFXRDemo.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259099284, "dur":53696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259153002, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259153756, "dur":7294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259153707, "dur":7345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259161078, "dur":4243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259165372, "dur":5211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259165326, "dur":5259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259170635, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259171581, "dur":8389, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259171533, "dur":8439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259179995, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1719478259180672, "dur":225703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719478258867261, "dur":2692, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719478258869956, "dur":505, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719478258870461, "dur":235, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719478258870696, "dur":250, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719478258870946, "dur":5498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719478258876446, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1719478258876609, "dur":7219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1719478258883918, "dur":89434, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719478258883829, "dur":89525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719478258973375, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719478258974099, "dur":119363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719478258974040, "dur":119424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719478259093487, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719478259094629, "dur":98145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719478259094374, "dur":98401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719478259192793, "dur":11234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1719478259204031, "dur":202362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719478258867406, "dur":2554, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719478258869962, "dur":464, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719478258870427, "dur":945, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719478258871372, "dur":5102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719478258876612, "dur":7264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1719478258883933, "dur":168689, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719478258883877, "dur":168747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719478259052646, "dur":5440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719478259058139, "dur":8557, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719478259058090, "dur":8607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719478259066719, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719478259067498, "dur":123852, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719478259067454, "dur":123898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719478259191376, "dur":12654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1719478259204032, "dur":202364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719478258867539, "dur":2440, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719478258869981, "dur":402, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719478258870384, "dur":342, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719478258870726, "dur":907, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719478258871633, "dur":4804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719478258876446, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719478258876589, "dur":189, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Export/Weber/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258876779, "dur":7061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719478258883895, "dur":25377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258883842, "dur":25432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258909302, "dur":10799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258920148, "dur":14269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258920103, "dur":14316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258934436, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258935006, "dur":11877, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258934961, "dur":11924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258946907, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258947768, "dur":9030, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258947722, "dur":9078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258956812, "dur":439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258957301, "dur":10477, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258957252, "dur":10527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258967792, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258968446, "dur":10363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258968401, "dur":10410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258978827, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258979382, "dur":10171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258979318, "dur":10237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258989568, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258990493, "dur":9917, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478258990451, "dur":9961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259001433, "dur":137, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1719478259000423, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259001617, "dur":56676, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259001578, "dur":56716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259058310, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259059765, "dur":7582, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259059718, "dur":7630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259067363, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259067908, "dur":9304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259067867, "dur":9348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259077237, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259077894, "dur":238802, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259077852, "dur":238846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259316734, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1719478259317448, "dur":88947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719478258867570, "dur":2416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719478258869988, "dur":626, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719478258870614, "dur":230, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719478258870845, "dur":227, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719478258871072, "dur":5398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719478258876575, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1719478258876641, "dur":7240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719478258883944, "dur":252539, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478258883881, "dur":252604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259138077, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1719478259136508, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259138238, "dur":18665, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259138175, "dur":18731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259156962, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259158124, "dur":12706, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259158068, "dur":12763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259170854, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259173211, "dur":8776, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259173143, "dur":8846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259182006, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1719478259183075, "dur":223292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719478258867599, "dur":2391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719478258869994, "dur":553, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719478258870548, "dur":848, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719478258871396, "dur":5075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719478258876472, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1719478258876585, "dur":156, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Export/Weber/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258876741, "dur":7201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719478258883987, "dur":13583, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258883943, "dur":13629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258897624, "dur":21502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258919172, "dur":19803, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258919128, "dur":19848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258939999, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1719478258939001, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258940167, "dur":12955, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258940105, "dur":13019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258953137, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258953911, "dur":26098, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258953865, "dur":26145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258980027, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258981506, "dur":51033, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478258981435, "dur":51106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478259032563, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478259033780, "dur":150599, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478259033735, "dur":150645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478259184421, "dur":19629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1719478259204051, "dur":202347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719478258867622, "dur":2375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719478258870479, "dur":539, "ph":"X", "name": "File",  "args": { "detail":"D:\\Programs\\2023.2.7f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Linq.Queryable.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258869999, "dur":1056, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719478258871055, "dur":5390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719478258876624, "dur":7326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1719478258884006, "dur":10835, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258883951, "dur":10892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258895725, "dur":23167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258918937, "dur":12414, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258918894, "dur":12459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258931365, "dur":730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258932151, "dur":11841, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258932096, "dur":11897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258944009, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258945012, "dur":10277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258944970, "dur":10320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258955308, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258956513, "dur":12085, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258956465, "dur":12134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258968616, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258969757, "dur":117768, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478258969698, "dur":117828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478259087544, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478259088580, "dur":166089, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478259088501, "dur":166170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478259254688, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1719478259255273, "dur":151126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719478258867679, "dur":2411, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719478258870092, "dur":537, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719478258870629, "dur":270, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719478258870899, "dur":164, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719478258871063, "dur":5386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719478258876449, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1719478258876545, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK.exe" }}
+,{ "pid":12345, "tid":9, "ts":1719478258876616, "dur":190, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK.exe" }}
+,{ "pid":12345, "tid":9, "ts":1719478258876807, "dur":7030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1719478258883916, "dur":13644, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258883839, "dur":13722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258897599, "dur":21309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258918952, "dur":12000, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258918910, "dur":12043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258930978, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258932186, "dur":11457, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258932143, "dur":11502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258943667, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258944637, "dur":12993, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258944593, "dur":13040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258957646, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258958446, "dur":17392, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258958398, "dur":17441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258975881, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258976896, "dur":10152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258976851, "dur":10199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258987090, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258987816, "dur":11377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258987762, "dur":11433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258999217, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258999917, "dur":118606, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478258999871, "dur":118654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478259118572, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478259120817, "dur":53764, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478259120755, "dur":53830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478259174604, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478259175271, "dur":4700, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478259175203, "dur":4770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478259179998, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1719478259180610, "dur":225756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719478258867652, "dur":2394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719478258870048, "dur":482, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719478258870531, "dur":210, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719478258870741, "dur":261, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719478258871002, "dur":5474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719478258876603, "dur":105, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Export/Weber/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258876709, "dur":7115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1719478258883898, "dur":15367, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258883825, "dur":15441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258899284, "dur":20231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258919564, "dur":12418, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258919516, "dur":12467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258932017, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258932911, "dur":14754, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258932860, "dur":14806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258947682, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258948234, "dur":10960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258948178, "dur":11018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258959214, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258959820, "dur":11157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258959779, "dur":11199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258970999, "dur":571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258971618, "dur":11078, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258971573, "dur":11124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258982715, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258983507, "dur":7217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258983453, "dur":7276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258990742, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258991352, "dur":138131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478258991314, "dur":138170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478259129508, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478259130858, "dur":249276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478259130810, "dur":249326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478259380152, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1719478259381534, "dur":24837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719478258867698, "dur":2398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719478258870097, "dur":352, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719478258870449, "dur":239, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719478258870689, "dur":255, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719478258870944, "dur":5506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719478258876451, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1719478258876633, "dur":7210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1719478258883917, "dur":11147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258883844, "dur":11222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258896577, "dur":22368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258919198, "dur":11940, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258918947, "dur":12192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258931155, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258932084, "dur":11374, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258932047, "dur":11414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258943486, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258944429, "dur":12160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258944384, "dur":12206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258956605, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258957291, "dur":9399, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258957239, "dur":9452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258966728, "dur":455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258967227, "dur":53138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478258967185, "dur":53182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478259020390, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478259021111, "dur":184993, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478259021058, "dur":185047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478259206123, "dur":3087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1719478259209213, "dur":197179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719478258867724, "dur":2379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719478258870105, "dur":304, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719478258870409, "dur":917, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719478258871326, "dur":5149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719478258876615, "dur":184, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1719478258876800, "dur":7031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1719478258883960, "dur":12316, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719478258883833, "dur":12445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719478258896288, "dur":22945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719478258919297, "dur":75222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719478258919235, "dur":75287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719478258994547, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719478258995542, "dur":181043, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719478258995485, "dur":181101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719478259176603, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1719478259178750, "dur":227619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719478258867750, "dur":2358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719478258870110, "dur":539, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719478258870649, "dur":252, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719478258870901, "dur":5535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719478258876486, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719478258876579, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1719478258877227, "dur":6636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719478258883925, "dur":11053, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258883863, "dur":11117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258896097, "dur":23266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258919410, "dur":19272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258919364, "dur":19319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258938690, "dur":146, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719478258938838, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258939914, "dur":13176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258939868, "dur":13224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258953117, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258954198, "dur":10336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258954115, "dur":10421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258964555, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258965306, "dur":12066, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258965256, "dur":12118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258977391, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258978360, "dur":10675, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258978306, "dur":10730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258989053, "dur":117, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719478258989172, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258990125, "dur":9967, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478258990034, "dur":10060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478259001318, "dur":130, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1719478259000106, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478259001507, "dur":101992, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478259001457, "dur":102044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478259103548, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478259104316, "dur":190327, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478259104269, "dur":190377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478259294669, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1719478259297089, "dur":109290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719478258867832, "dur":2357, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719478258870290, "dur":636, "ph":"X", "name": "File",  "args": { "detail":"C:\\Users\\CFCof\\Desktop\\Aleo-SDK\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":14, "ts":1719478258870190, "dur":1118, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719478258871309, "dur":5131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719478258876441, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1719478258876608, "dur":7222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719478258883902, "dur":14245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258883840, "dur":14308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258898161, "dur":20680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258918896, "dur":13440, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258918848, "dur":13490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258932351, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258933106, "dur":10731, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258933038, "dur":10800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258943853, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258945109, "dur":10839, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258945019, "dur":10931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258955965, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258956730, "dur":9437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258956686, "dur":9482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258966185, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258967017, "dur":11478, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258966974, "dur":11522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258978511, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258979168, "dur":9794, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258979102, "dur":9862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258988977, "dur":164, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1719478258989146, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258990626, "dur":9956, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478258990525, "dur":10058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478259000595, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478259001586, "dur":97485, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478259001545, "dur":97528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478259099087, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478259101739, "dur":302315, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478259101679, "dur":302377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1719478259404078, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478258867806, "dur":2370, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719478258870177, "dur":1114, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719478258871291, "dur":5181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719478258876613, "dur":7213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719478258883987, "dur":14435, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478258883829, "dur":14594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478258898435, "dur":20426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478258918915, "dur":19763, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478258918863, "dur":19817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478258940074, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719478258938703, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478258940195, "dur":116754, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478258940141, "dur":116810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478259056960, "dur":145, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719478259057111, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478259059513, "dur":56970, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478259059455, "dur":57029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478259116494, "dur":92, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719478259117259, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1719478259116591, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478259117429, "dur":242164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478259117337, "dur":242257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478259359614, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1719478259360282, "dur":46087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719478258867790, "dur":2338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719478258870129, "dur":478, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719478258870608, "dur":252, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719478258870860, "dur":806, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719478258871667, "dur":4781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719478258876448, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1719478258876614, "dur":176, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1719478258876791, "dur":7188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719478258884028, "dur":142296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719478258883980, "dur":142346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719478259026348, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719478259027402, "dur":58137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719478259027332, "dur":58210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719478259086801, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1719478259085570, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719478259087028, "dur":185874, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719478259086905, "dur":185998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Export/Weber/Aleo-SDK_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719478259272925, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Export/Weber/Aleo-SDK_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1719478259273650, "dur":132726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1719478259416033, "dur":1502, "ph":"X", "name": "ProfilerWriteOutput" }
+,
